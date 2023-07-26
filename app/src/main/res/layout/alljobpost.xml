@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    app:cardElevation="5dp"
+    android:elevation="5dp"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content"
+    tools:context=".AllJobActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+
+        android:layout_height="wrap_content"
+        android:background="#83B0DCB2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Title"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:maxLines="1"
+            android:id="@+id/all_job_post_title"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="1 August 2023"
+            android:textColor="#29A0D6"
+            android:maxLines="1"
+            android:id="@+id/all_job_post_date"
+            android:textAppearance="?android:textAppearanceSmall"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Description"
+            android:id="@+id/all_job_post_description"
+            android:maxLines="4"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Skills"
+            android:id="@+id/all_job_post_skills"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Salary"
+            android:id="@+id/all_job_post_salary"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#6C0C7C"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:text="Deadline"
+            android:id="@+id/all_job_post_deadline"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textColor="#6C0C7C"
+            />
+
+
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

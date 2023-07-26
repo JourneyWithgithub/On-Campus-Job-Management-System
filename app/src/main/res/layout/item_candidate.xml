@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFFFF"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="John Doe" />
+
+    <TextView
+        android:id="@+id/textViewAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Age: 25"
+        android:layout_below="@id/textViewName" />
+
+    <TextView
+        android:id="@+id/textViewDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Department: Computer Science"
+        android:layout_below="@id/textViewAge" />
+
+    <TextView
+        android:id="@+id/textViewYearSemester"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="Year: 3 | Semester: 2"
+        android:layout_below="@id/textViewDepartment" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutContactEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewYearSemester"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewContactEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:text="Contact: +123456789 | Email: john.doe@example.com" />
+
+        <ImageButton
+            android:id="@+id/btnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:background="#0BAF12"
+            android:src="@drawable/email"
+            android:clickable="true"
+            android:focusable="true"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

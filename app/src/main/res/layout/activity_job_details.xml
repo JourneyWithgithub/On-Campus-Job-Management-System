@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".JobDetailsActivity"
+    android:background="#D6F1B8">
+
+    <include layout="@layout/toolbar"
+        android:id="@+id/toolbar_job_details"
+    />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:text="Job Title..."
+        android:id="@+id/job_details_title"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="4 August 2023"
+
+        android:textAppearance="?android:textAppearanceSmall"
+        android:textColor="#2196F3"
+        android:id="@+id/job_details_date"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Description..."
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:id="@+id/job_details_description"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Skills"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:id="@+id/job_detail_skills"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Salary"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:id="@+id/job_detail_salary"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:text="Deadline"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="@color/white"
+        android:id="@+id/job_detail_deadline"
+
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="35dp"
+        android:text="Click for Apply"
+        android:id="@+id/btn_apply"
+
+        />
+
+
+
+
+
+
+</LinearLayout>

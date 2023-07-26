@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#9EBB6BDD"
+    android:theme="@style/Base.Theme.CampusJobManagement"
+    app:popupTheme="@style/Base.Theme.CampusJobManagement"
+    android:layout_height="wrap_content">
+
+
+
+</androidx.appcompat.widget.Toolbar>

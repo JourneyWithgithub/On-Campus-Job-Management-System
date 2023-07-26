@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/job_post_button"
+    android:layout_height="match_parent">
+
+    <!-- Custom Toolbar -->
+    <include layout="@layout/toolbar"
+        android:id="@+id/all_job_post"
+        />
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/recycler_all_job"
+        android:layout_below="@id/all_job_post"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

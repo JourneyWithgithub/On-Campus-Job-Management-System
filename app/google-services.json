@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "37317555388",
+    "project_id": "on-campus-job",
+    "storage_bucket": "on-campus-job.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37317555388:android:197e5314a970a88e310cb9",
+        "android_client_info": {
+          "package_name": "com.example.oncampusjobmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37317555388-8idl1bb4vrjhqccsoes72npgsjh9o4bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEKewEeYS5VmbxV_bSf3HvwUJVOnAnbvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37317555388-8idl1bb4vrjhqccsoes72npgsjh9o4bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37317555388:android:24840c771ece6233310cb9",
+        "android_client_info": {
+          "package_name": "com.jalil.campusjobmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37317555388-9096uus2aadodisjc0d36ouoqj7s33sp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jalil.campusjobmanagement",
+            "certificate_hash": "848ec1b2c8b5def2d2f235886a2d1b6712ca5cb5"
+          }
+        },
+        {
+          "client_id": "37317555388-8idl1bb4vrjhqccsoes72npgsjh9o4bc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEKewEeYS5VmbxV_bSf3HvwUJVOnAnbvs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37317555388-8idl1bb4vrjhqccsoes72npgsjh9o4bc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
